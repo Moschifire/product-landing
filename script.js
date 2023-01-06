@@ -82,3 +82,9 @@ const products = [
         price: 105
     }
 ];
+
+function addToCart(products) {
+    
+}
+
+document.querySelector("#prices").addEventListener("click", addToCart)
